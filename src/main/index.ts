@@ -1,6 +1,6 @@
 import { app, shell, BrowserWindow } from 'electron'
 import { join } from 'path'
-import { electronApp, optimizer, is } from '@electron-toolkit/utils'
+import { electronApp, optimizer } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
 function createWindow(): void {
@@ -12,6 +12,7 @@ function createWindow(): void {
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
+      enableBlinkFeatures: 'WebContentsForceDark',
       preload: join(__dirname, '../preload/index.js'),
       sandbox: false
     }

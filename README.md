@@ -9,16 +9,22 @@
 - 开发者**仅考虑支持橙啦 Windows 所包含的功能**。非官方支持的功能性更新 / 建议会被忽略；
 - 使用该客户端，即表示您**知情**并**同意**自行承担使用本非官方客户端所造成的**一切（可能）直接或间接损失**，且作者对此**不承担任何责任**。
 
-## ⬇️ 下载
-前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的版本。目前仅上传了 AppImage，Snap 和 linux-unpacked 版本
-
 ## ✅ 支持功能
 - 课程回放
 - 直播
 - GPU 加速（非官方支持）
 - 以及其它橙啦 Windows 平台支持的一些其它功能（未测试）...
 
-## 
+## ⬇️ 下载
+### ![NixOS](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/nixos.svg) NixOS
+
+该软件已经打包到我的 [NUR](https://github.com/pokon548/nur-packages) 源内。只需要从源里拉取预编译版本即可
+
+### ![Linux](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/linux.svg) 其它 Linux 发行版
+请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的版本。目前仅上传了 AppImage，Snap 和 linux-unpacked 版本
+
+
+
 ## 🛠️ 如何编译
 推荐使用以下编译套装：
 - [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)

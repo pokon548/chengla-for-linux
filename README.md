@@ -44,6 +44,6 @@ $ yarn dev
 ### 构建
 
 ```bash
-# For windows
+# For Linux
 $ yarn build:linux
 ```

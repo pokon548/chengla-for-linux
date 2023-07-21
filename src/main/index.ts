@@ -1,7 +1,8 @@
-import { app, shell, BrowserWindow } from 'electron'
+import { app, shell, BrowserWindow, Notification, ipcMain } from 'electron'
 import { join } from 'path'
 import { electronApp, optimizer } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
+import { download } from 'electron-dl'
 
 function createWindow(): void {
   // Create the browser window.
@@ -29,6 +30,25 @@ function createWindow(): void {
 
   mainWindow.loadURL('https://client.orangevip.com', {
     userAgent: 'CLClient 1.0'
+  })
+
+  ipcMain.on('url', async (_event, url) => {
+    console.log(
+      await download(mainWindow, url, {
+        onStarted(item) {
+          new Notification({
+            title: '正在下载课程资料',
+            body: item.getFilename()
+          }).show()
+        },
+        onCompleted(file) {
+          new Notification({
+            title: '下载完成',
+            body: '文件路径：' + file.path.toString()
+          }).show()
+        }
+      })
+    )
   })
 }
 

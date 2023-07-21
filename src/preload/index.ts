@@ -1,5 +1,6 @@
 import { contextBridge } from 'electron'
 import { electronAPI } from '@electron-toolkit/preload'
+import { CLClient } from './CLClient'
 
 // Custom APIs for renderer
 const api = {}
@@ -19,4 +20,5 @@ if (process.contextIsolated) {
   window.electron = electronAPI
   // @ts-ignore (define in dts)
   window.api = api
+  CLClient
 }

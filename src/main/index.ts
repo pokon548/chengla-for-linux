@@ -41,11 +41,15 @@ function createWindow(): void {
             body: item.getFilename()
           }).show()
         },
+        onProgress(progress) {
+          mainWindow.setProgressBar(progress.percent)
+        },
         onCompleted(file) {
           new Notification({
             title: '下载完成',
             body: '文件路径：' + file.path.toString()
           }).show()
+          mainWindow.setProgressBar(1.0)
         }
       })
     )

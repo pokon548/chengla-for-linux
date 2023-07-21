@@ -42,3 +42,7 @@ if (process.contextIsolated) {
   window.api = api
   CLClient
 }
+
+document?.querySelector('.bjy-video')?.addEventListener('click', () => {
+  console.log('test flow')
+})

@@ -1,5 +1,7 @@
 # 橙啦（非官方）Linux 客户端
 
+![橘子图](https://www.pngrepo.com/png/83342/180/orange.png)
+
 一个基于 Electron 编写的[橙啦](https://www.orangevip.com/)非官方 PC 客户端，为 Linux 用户专门打造
 
 ## ⚠️ 声明

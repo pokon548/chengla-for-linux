@@ -1,5 +1,5 @@
 import { app, shell, BrowserWindow, Notification, ipcMain } from 'electron'
-import path, { join } from 'path'
+import { join } from 'path'
 import { electronApp, optimizer } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 import { download } from 'electron-dl'
@@ -7,14 +7,13 @@ import { download } from 'electron-dl'
 function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 900,
-    height: 670,
+    width: 1280,
+    height: 1080,
     show: true,
-    icon: path.join(__dirname, 'resources/icon.png'),
+    icon: __dirname + '../resources/icon.png',
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {
-      enableBlinkFeatures: 'WebContentsForceDark',
       preload: join(__dirname, '../preload/index.js'),
       sandbox: true
     }

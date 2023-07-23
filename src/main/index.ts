@@ -10,7 +10,7 @@ function createWindow(): void {
     width: 1280,
     height: 1080,
     show: true,
-    icon: __dirname + '../resources/icon.png',
+    icon: join(process.resourcesPath, 'icon.png'),
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     webPreferences: {

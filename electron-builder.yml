@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: 橙啦
+productName: chengla
 directories:
   buildResources: build
 files:
@@ -32,8 +32,10 @@ linux:
   target:
     - AppImage
     - snap
-  maintainer: electronjs.org
+  maintainer: pokon548
+  icon: build/icon.icns
   category: Utility
+
 appImage:
   artifactName: ${name}-${version}.${ext}
 npmRebuild: false

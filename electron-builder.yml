@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: chengla-linux-unofficial
+productName: 橙啦
 directories:
   buildResources: build
 files:
@@ -32,7 +32,6 @@ linux:
   target:
     - AppImage
     - snap
-    - deb
   maintainer: electronjs.org
   category: Utility
 appImage:

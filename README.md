@@ -30,6 +30,10 @@
 
 该软件已经打包到我的 [NUR](https://github.com/pokon548/nur-packages) 源内。只需要从源里拉取预编译版本即可
 
+### ![Arch Linux](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/arch.svg) Arch Linux
+
+已被打包到 [AUR](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)，可以直接使用。感谢 [@zxp19821005](https://github.com/zxp19821005) 的帮助！
+
 ### ![Linux](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/linux.svg) 其它 Linux 发行版
 
 请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的版本。目前仅上传了 AppImage，Snap 和 linux-unpacked 版本

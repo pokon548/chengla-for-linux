@@ -15,6 +15,7 @@
     "productName": "chengla"
   },
   "dependencies": {
+    "darkreader": "^4.9.66",
     "electron-dl": "^3.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

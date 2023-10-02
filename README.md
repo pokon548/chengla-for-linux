@@ -49,18 +49,17 @@
 在克隆完本项目的源代码后，执行以下命令安装依赖：
 
 ```bash
-$ yarn
+$ pnpm
 ```
 
 ### 运行开发版本
 
 ```bash
-$ yarn dev
+$ pnpm dev
 ```
 
 ### 构建
 
 ```bash
-# For Linux
-$ yarn build:linux
+$ pnpm build
 ```

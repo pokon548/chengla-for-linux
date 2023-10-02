@@ -1,9 +1,4 @@
-import {
-  app,
-  BrowserWindow,
-  ipcMain,
-  Notification,
-} from "electron";
+import { app, BrowserWindow, ipcMain, Notification } from "electron";
 import path from "node:path";
 import { join } from "path";
 

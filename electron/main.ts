@@ -1,5 +1,6 @@
 import { app, BrowserWindow, ipcMain, Notification } from 'electron'
 import path from 'node:path'
+import { join } from 'path'
 
 import { download } from 'electron-dl'
 
@@ -20,10 +21,11 @@ function createWindow() {
     width: 1280,
     height: 1080,
     show: true,
-    icon: path.join(process.env.VITE_PUBLIC, 'electron-vite.svg'),
+    icon: join(process.resourcesPath, 'icon.png'),
     autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
+      autoplayPolicy: 'user-gesture-required'
     },
   })
 

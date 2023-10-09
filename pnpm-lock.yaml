@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^4.1.0
     version: 4.1.0(vite@4.4.9)
   electron:
-    specifier: ^26.2.4
-    version: 26.2.4
+    specifier: ^26.3.0
+    version: 26.3.0
   electron-builder:
     specifier: ^24.6.4
     version: 24.6.4
@@ -791,11 +791,17 @@ packages:
     resolution: {integrity: sha512-LzcWltT83s1bthcvjBmiBvGJiiUe84NWRHkw+ZV6Fr41z2FbIzvc815dk2nQ3RAKMuN2fkenM/z3Xv2QzEpYxQ==}
     dev: true
 
+  /@types/node@20.8.3:
+    resolution: {integrity: sha512-jxiZQFpb+NlH5kjW49vXxvxTjeeqlbsnTAdBTKpzEdPs9itay7MscYXz3Fo9VYFEsfQ6LJFitHad3faerLAjCw==}
+    requiresBuild: true
+    dev: true
+    optional: true
+
   /@types/plist@3.0.3:
     resolution: {integrity: sha512-DXkBoKc7jwUR0p439icInmXXMJNhoImdpOrrgA5/nDFK7LVtcJ9MyQNKhJEKpEztnHGWnNWMWLOIR62By0Ln0A==}
     requiresBuild: true
     dependencies:
-      '@types/node': 20.8.0
+      '@types/node': 20.8.3
       xmlbuilder: 15.1.1
     dev: true
     optional: true
@@ -1595,8 +1601,8 @@ packages:
     resolution: {integrity: sha512-W1+g9qs9hviII0HAwOdehGYkr+zt7KKdmCcJcjH0mYg6oL8+ioT3Skjmt7BLoAQqXhjf40AXd+HlR4oAWMlXjA==}
     dev: true
 
-  /electron@26.2.4:
-    resolution: {integrity: sha512-weMUSMyDho5E0DPQ3breba3D96IxwNvtYHjMd/4/wNN3BdI5s3+0orNnPVGJFcLhSvKoxuKUqdVonUocBPwlQA==}
+  /electron@26.3.0:
+    resolution: {integrity: sha512-7ZpvSHu+jmqialSvywTZnOQZZGLqlyj+yV5HGDrEzFnMiFaXBRpbByHgoUhaExJ/8t/0xKQjKlMRAY65w+zNZQ==}
     engines: {node: '>= 12.20.55'}
     hasBin: true
     requiresBuild: true

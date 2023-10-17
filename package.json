@@ -3,7 +3,6 @@
   "version": "1.0.7",
   "description": "Unofficial chengla client for linux",
   "author": "pokon548",
-  "homepage": "https://github.com/pokon548/chengla-for-linux",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && electron-builder",
@@ -12,7 +11,23 @@
   },
   "build": {
     "appId": "ink.pokon548.chengla",
-    "productName": "chengla"
+    "productName": "chengla",
+    "linux": {
+      "maintainer": "pokon548",
+      "icon": "build/icon.png",
+      "category": "Education",
+      "target": [
+        {
+          "target": "AppImage"
+        },
+        {
+          "target": "Snap"
+        },
+        {
+          "target": "zip"
+        }
+      ]
+    }
   },
   "dependencies": {
     "darkreader": "^4.9.66",

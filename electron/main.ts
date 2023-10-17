@@ -36,6 +36,20 @@ function createWindow() {
     win?.webContents.send("main-process-message", new Date().toLocaleString());
   });
 
+  // FIXME: Loading non-existed js from server, which breaks video player :(
+  win.webContents.session.webRequest.onBeforeRequest((details, callback) => {
+    const { url } = details;
+    if (url.includes("app.0a2d1d42.js")) {
+      callback({
+        cancel: false,
+        redirectURL:
+          "https://www.orangevip.com/playcheckbjy/static/js/app.cf0e2e53.js",
+      });
+    } else {
+      callback({});
+    }
+  });
+
   // Allow press F12 to open dev panel if not packed
   if (!app.isPackaged)
     win.webContents.on("before-input-event", (_e, input) => {

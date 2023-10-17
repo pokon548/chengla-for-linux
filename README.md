@@ -26,6 +26,9 @@
 
 ## ⬇️ 下载
 
+> [!IMPORTANT]  
+> 只有 NixOS 与 Arch Linux 的构建会进行活跃测试，其余构建均只保证理论上可用。如遇异常，请携带详尽日志和系统环境信息到 issue 区提交问题
+
 ### ![NixOS](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/nixos.svg) NixOS
 
 该软件已经打包到我的 [NUR](https://github.com/pokon548/nur-packages) 源内。只需要从源里拉取预编译版本即可
@@ -34,23 +37,18 @@
 
 已被打包到 [AUR](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)，可以直接使用。感谢 [@zxp19821005](https://github.com/zxp19821005) 的帮助！
 
-### ![Debian](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/debian.svg) Debian / ![Ubuntu](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/ubuntu.svg) Ubuntu / 其它 Deb 系发行版
-
-> [!IMPORTANT]  
-> 该打包未经详尽测试，仅保证理论上可用。如有问题，请带上你的系统环境到 Issue 区报告问题
+### ![Debian](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/debian.svg) Debian / ![Ubuntu](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/ubuntu.svg) Ubuntu / 其它 deb 系发行版
 
 请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载 deb 包。
 
-### ![Fedora](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/fedora.svg) Fedora / ![Fedora](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/opensuse.svg) openSUSE / 其它 RPM 系发行版
-
-> [!IMPORTANT]  
-> 该打包未经详尽测试，仅保证理论上可用。如有问题，请带上你的系统环境到 Issue 区报告问题
+### ![Fedora](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/fedora.svg) Fedora / ![Fedora](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/opensuse.svg) openSUSE / 其它 rpm 系发行版
 
 请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载 rpm 包。
 
 ### ![Linux](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/linux.svg) 其它 Linux 发行版
 
-请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的通用版本。目前上传了：
+请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的通用版本。目前上传了以下版本：
+
 - AppImage
 - Snap
 - linux-unpacked

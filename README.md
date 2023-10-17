@@ -34,9 +34,26 @@
 
 已被打包到 [AUR](https://aur.archlinux.org/packages/chengla-linux-unofficial-bin)，可以直接使用。感谢 [@zxp19821005](https://github.com/zxp19821005) 的帮助！
 
+### ![Debian](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/debian.svg) Debian / ![Ubuntu](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/ubuntu.svg) Ubuntu / 其它 Deb 系发行版
+
+> [!IMPORTANT]  
+> 该打包未经详尽测试，仅保证理论上可用。如有问题，请带上你的系统环境到 Issue 区报告问题
+
+请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载 deb 包。
+
+### ![Fedora](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/fedora.svg) Fedora / ![Fedora](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/opensuse.svg) openSUSE / 其它 RPM 系发行版
+
+> [!IMPORTANT]  
+> 该打包未经详尽测试，仅保证理论上可用。如有问题，请带上你的系统环境到 Issue 区报告问题
+
+请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载 rpm 包。
+
 ### ![Linux](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/linux.svg) 其它 Linux 发行版
 
-请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的版本。目前仅上传了 AppImage，Snap 和 linux-unpacked 版本
+请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的版本。目前上传了：
+- AppImage
+- Snap
+- linux-unpacked
 
 ## 🛠️ 如何编译
 

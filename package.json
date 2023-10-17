@@ -24,6 +24,9 @@
           "target": "Snap"
         },
         {
+          "target": "deb"
+        },
+        {
           "target": "zip"
         }
       ]

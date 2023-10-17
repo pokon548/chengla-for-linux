@@ -50,7 +50,7 @@
 
 ### ![Linux](https://raw.githubusercontent.com/unixporn/distro-icons/master/SVG/linux.svg) 其它 Linux 发行版
 
-请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的版本。目前上传了：
+请前往 [Releases](https://github.com/pokon548/chengla-for-linux/releases) 下载编译好的通用版本。目前上传了：
 - AppImage
 - Snap
 - linux-unpacked

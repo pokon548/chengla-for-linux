@@ -23,13 +23,15 @@ function createWindow() {
     width: 1280,
     height: 1080,
     show: true,
-    icon: join(process.resourcesPath, "icon.png"),
+    icon: app.isPackaged ? join(process.resourcesPath, "icon.png") : join('build', 'icon.png'),
     autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       autoplayPolicy: "user-gesture-required",
     },
   });
+
+  console.log(process.resourcesPath)
 
   // Test active push message to Renderer-process.
   win.webContents.on("did-finish-load", () => {
